@@ -1,0 +1,40 @@
+name: build-and-deploy
+
+# Rebuilds the static site from the committed dataset and deploys to Cloudflare Pages.
+# This is what makes the project survive the laptop being off: a push from anywhere
+# (or a manual dispatch from the GitHub UI) produces a live deploy with no local machine.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  deployments: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build site
+        run: python3 scripts/build_site.py
+
+      - name: Verify site
+        run: python3 scripts/verify_site.py
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy site --project-name=pincode-india --branch=main
