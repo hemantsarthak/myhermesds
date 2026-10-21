@@ -1,0 +1,15 @@
+# local-only
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# build output is regenerated, but we DO commit it for Pages deploy
+# (Cloudflare Pages serves the committed static files)
+.cache/
+.wrangler/
+dist/
+site/
