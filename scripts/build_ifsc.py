@@ -216,13 +216,26 @@ supports NEFT, RTGS, IMPS and UPI.</p>
         "MICR, and whether the branch supports NEFT, RTGS, IMPS and UPI.",
         body, SITE + "/")))
 
-    # ---- per-bank payloads (client-side exact lookup)
+    # ---- per-bank, per-shard payloads (client-side exact lookup)
+    # Sharded on the LAST character, not a middle one: Indian IFSC branch codes are
+    # sequential, so SBIN0000001..SBIN0026498 share their middle characters and all
+    # land in one shard. The last digit varies uniformly, so this keeps shards small
+    # regardless of how a bank numbers its branches.
     for pre, rs in by_prefix.items():
-        payload = [[r["ifsc"], r["branch"], r["address"], r["city"] or r["centre"],
-                    r["district"], r["state"], r["micr"], r["swift"],
-                    int(r["upi"]), int(r["neft"]), int(r["rtgs"]), int(r["imps"])] for r in rs]
-        files.append(write(f"data/bank/{pre}.json",
-                           json.dumps(payload, separators=(",", ":"), ensure_ascii=False)))
+        shards = collections.defaultdict(list)
+        for r in rs:
+            shards[r["ifsc"][-1]].append(r)
+        for ch, sh in shards.items():
+            payload = [[r["ifsc"], r["branch"], r["address"], r["city"] or r["centre"],
+                        r["district"], r["state"], r["micr"], r["swift"],
+                        int(r["upi"]), int(r["neft"]), int(r["rtgs"]), int(r["imps"])]
+                       for r in sh]
+            files.append(write(f"data/bank/{pre}/{ch}.json",
+                               json.dumps(payload, separators=(",", ":"), ensure_ascii=False)))
+        # code-only index for prefix suggestions: far smaller than full records
+        files.append(write(f"data/codes/{pre}.json",
+                           json.dumps(sorted(r["ifsc"] for r in rs),
+                                      separators=(",", ":"))))
 
     # ---- bank index + state index payloads
     files.append(write("data/banks.json", json.dumps(
@@ -237,9 +250,9 @@ supports NEFT, RTGS, IMPS and UPI.</p>
   function loadBanks(){ if(banks) return Promise.resolve(banks);
     return fetch('/data/banks.json').then(function(r){return r.json()})
       .then(function(d){banks=d;return d}); }
-  function loadBank(pre){ if(cache[pre]) return Promise.resolve(cache[pre]);
-    return fetch('/data/bank/'+pre+'.json').then(function(r){return r.json()})
-      .then(function(d){cache[pre]=d;return d}).catch(function(){return []}); }
+  function loadBank(pre, sh){ var k=pre+sh; if(cache[k]) return Promise.resolve(cache[k]);
+    return fetch('/data/bank/'+pre+'/'+sh+'.json').then(function(r){return r.json()})
+      .then(function(d){cache[k]=d;return d}).catch(function(){return []}); }
   function row(r){
     var f=[['NEFT',r[9]],['RTGS',r[10]],['IMPS',r[11]],['UPI',r[8]]]
       .filter(function(x){return x[1]}).map(function(x){return '<span class="badge">'+x[0]+'</span>'}).join('');
@@ -266,7 +279,21 @@ supports NEFT, RTGS, IMPS and UPI.</p>
     }
     if(t.length>=5){
       var pre=t.slice(0,4);
-      loadBank(pre).then(function(rs){
+      if(t.length<11){
+        // partial code: use the code-only index, then let the user pick a full code
+        fetch('/data/codes/'+pre+'.json').then(function(r){return r.json()}).catch(function(){return []})
+          .then(function(codes){
+            var part=codes.filter(function(c){return c.indexOf(t)===0}).slice(0,10);
+            if(!part.length){res.innerHTML='<div class="card">No code under <span class="mono">'+esc(t)+'</span>.</div>';return;}
+            res.innerHTML=part.map(function(c){
+              return '<a class="grid" style="display:block;margin:6px 0;padding:10px 12px;background:#fff;'+
+                'border:1px solid #e2e6ec;border-radius:8px" href="/lookup/?ifsc='+c+'">'+
+                '<span class="mono">'+c+'</span></a>';
+            }).join('');
+          });
+        return;
+      }
+      loadBank(pre, t[10]).then(function(rs){
         var hit=rs.filter(function(r){return r[0]===t});
         if(hit.length){res.innerHTML=row(hit[0]);return;}
         var part=rs.filter(function(r){return r[0].indexOf(t)===0}).slice(0,10);
@@ -276,6 +303,9 @@ supports NEFT, RTGS, IMPS and UPI.</p>
   }
   q.addEventListener('input',run);
   loadBanks();
+  // allow /lookup/?ifsc=SBIN0001234 deep links from the suggestion list
+  var deep=new URLSearchParams(location.search).get('ifsc');
+  if(deep){q.value=deep.toUpperCase();run();}
 })();
 """
     files.append(write("assets/search.js", search_js))
