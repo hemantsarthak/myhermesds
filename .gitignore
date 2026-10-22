@@ -17,3 +17,7 @@ site-ifsc/
 
 # 35 MB upstream dataset — fetched on demand by scripts/build_ifsc.py
 data-source/IFSC.csv
+
+# local ad-network config (tag goes here once a publisher account exists)
+ads.json
+.tmp/

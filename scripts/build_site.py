@@ -25,6 +25,8 @@ import pathlib
 import datetime
 import collections
 
+import ads
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent          # .../moneyds
 DATA = ROOT / "data-source" / "indiapicodedata.json"           # copied in; project is self-contained
 OUT = ROOT / "site"
@@ -155,6 +157,7 @@ def page(title, desc, body, canonical, crumbs=None, jsonld=None):
 <meta property="og:url" content="{canonical}">
 <style>{CSS}</style>
 {ld}
+{ads.head()}
 </head>
 <body>
 <header><div class="wrap">
@@ -164,7 +167,7 @@ def page(title, desc, body, canonical, crumbs=None, jsonld=None):
 <main class="wrap">
 {crumb_html}
 {body}
-<div class="adslot" id="ad-slot-1"></div>
+{ads.slot()}
 </main>
 <footer><div class="wrap">
   <a href="/about/">About</a><a href="/privacy/">Privacy</a><a href="/contact/">Contact</a>

@@ -1,0 +1,4 @@
+[   11713ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://accounts.google.com/gsi/button?type=standard&theme=outline&size=large&text=continue_with&shape=circle&logo_alignment=left&width=340&click_listener=undefined&is_fedcm_supported=true&client_id=48550377728-qu8kd0p7d8k42nh5m6chec18di3guvac.apps.googleusercontent.com&iframe_id=gsi_850602_257429&cas=wVE5vPrLL6451fXRZ4qSAauym8BrvbueTxApbRSlQTU&hl=en_US:0
+[   11715ms] [ERROR] Provider's accounts list is empty. @ https://publishers.monetag.com/signup:0
+[   14606ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://publishers.monetag.com/app-ea8e3fbee1d3ec5c441e.js:1
+[   22952ms] [ERROR] [GSI_LOGGER]: The given origin is not allowed for the given client ID. @ https://ssl.gstatic.com/_/gsi/_/js/k=gsi.gsi.en_US.u-spvlmiaNo.O/am=AAAAAEEABl0U/d=1/rs=AF0KOtVUyl1a8ZHVwVU4cJ60IxWe7B_IEw/m=credential_button_library:87

@@ -1,0 +1,642 @@
+- generic [active] [ref=f14e1]:
+  - generic [ref=f14e3]:
+    - generic [ref=f14e5]:
+      - generic [ref=f14e6]:
+        - link "logo" [ref=f14e8] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f14e17]:
+          - paragraph [ref=f14e19] [cursor=pointer]: Advertise
+          - paragraph [ref=f14e24] [cursor=pointer]: Earn
+          - link "Marketplace" [ref=f14e28] [cursor=pointer]:
+            - /url: /marketplace/
+          - link "Stats" [ref=f14e29] [cursor=pointer]:
+            - /url: /statistics/
+      - generic [ref=f14e30]:
+        - generic [ref=f14e32] [cursor=pointer]
+        - button [ref=f14e35] [cursor=pointer]
+        - generic [ref=f14e38]:
+          - button "Request demo" [ref=f14e39] [cursor=pointer]
+          - button "Log in" [ref=f14e40]
+    - generic [ref=f14e42]:
+      - generic [ref=f14e45]:
+        - generic [ref=f14e46]:
+          - tablist [ref=f14e47]:
+            - tab [selected] [ref=f14e48] [cursor=pointer]:
+              - paragraph [ref=f14e49]: Advertisers
+            - tab [ref=f14e52] [cursor=pointer]:
+              - paragraph [ref=f14e53]: Publishers
+          - generic [ref=f14e55]:
+            - generic [ref=f14e56]:
+              - paragraph [ref=f14e57]: Launch your crypto campaign in 5 minutes
+              - heading "Crypto & Bitcoin advertising network with self-serve setup, quick launch, and flexible budgets" [level=1] [ref=f14e58]
+            - generic [ref=f14e59]:
+              - button "Start Campaign Now" [ref=f14e60] [cursor=pointer]
+              - button "Learn more" [ref=f14e62] [cursor=pointer]
+        - generic [ref=f14e64]:
+          - img "advertiser hero" [ref=f14e66]
+          - generic [ref=f14e71]:
+            - link "Tokens Tokens" [ref=f14e73] [cursor=pointer]:
+              - /url: /ad-solutions/token-advertising/
+              - img "Tokens" [ref=f14e74]
+              - generic [ref=f14e75]: Tokens
+            - link "Trading Trading" [ref=f14e77] [cursor=pointer]:
+              - /url: /ad-solutions/trading-promotion/
+              - img "Trading" [ref=f14e78]
+              - generic [ref=f14e79]: Trading
+            - link "Blockchain Blockchain" [ref=f14e81] [cursor=pointer]:
+              - /url: /ad-solutions/blockchain-advertising/
+              - img "Blockchain" [ref=f14e82]
+              - generic [ref=f14e83]: Blockchain
+            - link "Gambling Gambling" [ref=f14e85] [cursor=pointer]:
+              - /url: /ad-solutions/gambling-advertising/
+              - img "Gambling" [ref=f14e86]
+              - generic [ref=f14e87]: Gambling
+            - link "Betting Betting" [ref=f14e89] [cursor=pointer]:
+              - /url: /ad-solutions/sports-betting-advertising/
+              - img "Betting" [ref=f14e90]
+              - generic [ref=f14e91]: Betting
+            - link "Mobile Mobile" [ref=f14e93] [cursor=pointer]:
+              - /url: /ad-solutions/mobile-app-advertising/
+              - img "Mobile" [ref=f14e94]
+              - generic [ref=f14e95]: Mobile
+            - link "Casino Casino" [ref=f14e97] [cursor=pointer]:
+              - /url: /ad-solutions/online-casino-advertising/
+              - img "Casino" [ref=f14e98]
+              - generic [ref=f14e99]: Casino
+            - link "NFTs NFTs" [ref=f14e101] [cursor=pointer]:
+              - /url: /ad-solutions/nft-advertising/
+              - img "NFTs" [ref=f14e102]
+              - generic [ref=f14e103]: NFTs
+            - link "Crypto media Crypto media" [ref=f14e105] [cursor=pointer]:
+              - /url: /ad-solutions/
+              - img "Crypto media" [ref=f14e106]
+              - generic [ref=f14e107]: Crypto media
+            - link "Crypto tools Crypto tools" [ref=f14e109] [cursor=pointer]:
+              - /url: /ad-solutions/
+              - img "Crypto tools" [ref=f14e110]
+              - generic [ref=f14e111]: Crypto tools
+            - link "Amazon products Amazon products" [ref=f14e113] [cursor=pointer]:
+              - /url: /ad-solutions/amazon-product-advertising/
+              - img "Amazon products" [ref=f14e114]
+              - generic [ref=f14e115]: Amazon products
+            - link "Dating Dating" [ref=f14e117] [cursor=pointer]:
+              - /url: /ad-solutions/dating-ads-network/
+              - img "Dating" [ref=f14e118]
+              - generic [ref=f14e119]: Dating
+            - link "Web 3.0 Web 3.0" [ref=f14e121] [cursor=pointer]:
+              - /url: /ad-solutions/web3-advertising/
+              - img "Web 3.0" [ref=f14e122]
+              - generic [ref=f14e123]: Web 3.0
+            - link "Tokens Tokens" [ref=f14e125] [cursor=pointer]:
+              - /url: /ad-solutions/token-advertising/
+              - img "Tokens" [ref=f14e126]
+              - generic [ref=f14e127]: Tokens
+            - link "Trading Trading" [ref=f14e129] [cursor=pointer]:
+              - /url: /ad-solutions/trading-promotion/
+              - img "Trading" [ref=f14e130]
+              - generic [ref=f14e131]: Trading
+            - link "Blockchain Blockchain" [ref=f14e133] [cursor=pointer]:
+              - /url: /ad-solutions/blockchain-advertising/
+              - img "Blockchain" [ref=f14e134]
+              - generic [ref=f14e135]: Blockchain
+            - link "Gambling Gambling" [ref=f14e137] [cursor=pointer]:
+              - /url: /ad-solutions/gambling-advertising/
+              - img "Gambling" [ref=f14e138]
+              - generic [ref=f14e139]: Gambling
+            - link "Betting Betting" [ref=f14e141] [cursor=pointer]:
+              - /url: /ad-solutions/sports-betting-advertising/
+              - img "Betting" [ref=f14e142]
+              - generic [ref=f14e143]: Betting
+            - link "Mobile Mobile" [ref=f14e145] [cursor=pointer]:
+              - /url: /ad-solutions/mobile-app-advertising/
+              - img "Mobile" [ref=f14e146]
+              - generic [ref=f14e147]: Mobile
+            - link "Casino Casino" [ref=f14e149] [cursor=pointer]:
+              - /url: /ad-solutions/online-casino-advertising/
+              - img "Casino" [ref=f14e150]
+              - generic [ref=f14e151]: Casino
+            - link "NFTs NFTs" [ref=f14e153] [cursor=pointer]:
+              - /url: /ad-solutions/nft-advertising/
+              - img "NFTs" [ref=f14e154]
+              - generic [ref=f14e155]: NFTs
+            - link "Crypto media Crypto media" [ref=f14e157] [cursor=pointer]:
+              - /url: /ad-solutions/
+              - img "Crypto media" [ref=f14e158]
+              - generic [ref=f14e159]: Crypto media
+            - link "Crypto tools Crypto tools" [ref=f14e161] [cursor=pointer]:
+              - /url: /ad-solutions/
+              - img "Crypto tools" [ref=f14e162]
+              - generic [ref=f14e163]: Crypto tools
+            - link "Amazon products Amazon products" [ref=f14e165] [cursor=pointer]:
+              - /url: /ad-solutions/amazon-product-advertising/
+              - img "Amazon products" [ref=f14e166]
+              - generic [ref=f14e167]: Amazon products
+            - link "Dating Dating" [ref=f14e169] [cursor=pointer]:
+              - /url: /ad-solutions/dating-ads-network/
+              - img "Dating" [ref=f14e170]
+              - generic [ref=f14e171]: Dating
+            - link "Web 3.0 Web 3.0" [ref=f14e173] [cursor=pointer]:
+              - /url: /ad-solutions/web3-advertising/
+              - img "Web 3.0" [ref=f14e174]
+              - generic [ref=f14e175]: Web 3.0
+      - generic [ref=f14e178]:
+        - generic [ref=f14e182]:
+          - paragraph [ref=f14e183]: 300+
+          - paragraph [ref=f14e184]: Active campaigns
+        - generic [ref=f14e188]:
+          - paragraph [ref=f14e189]: 15+
+          - paragraph [ref=f14e190]: Years of experience
+        - generic [ref=f14e194]:
+          - paragraph [ref=f14e195]: 50+
+          - paragraph [ref=f14e196]: Exclusive sources
+        - generic [ref=f14e200]:
+          - paragraph [ref=f14e201]: 300M+
+          - paragraph [ref=f14e202]: Daily reach
+      - generic [ref=f14e205]:
+        - generic [ref=f14e206]:
+          - generic [ref=f14e207]:
+            - heading "Estimate your results with crypto ads" [level=2] [ref=f14e208]
+            - paragraph [ref=f14e209]: Calculate what AADS can do for you right now
+          - tablist [ref=f14e210]:
+            - tab "I need traffic" [selected] [ref=f14e211] [cursor=pointer]
+            - tab "I have traffic" [ref=f14e212] [cursor=pointer]
+          - generic [ref=f14e213]:
+            - generic [ref=f14e214]:
+              - paragraph [ref=f14e215]: Select traffic
+              - generic [ref=f14e217]:
+                - log [ref=f14e219]
+                - generic [ref=f14e221] [cursor=pointer]:
+                  - generic [ref=f14e223]:
+                    - img "All traffic" [ref=f14e224]
+                    - generic [ref=f14e225]: All traffic
+                  - combobox [ref=f14e226]
+            - generic [ref=f14e231]:
+              - paragraph [ref=f14e232]: Daily budget
+              - generic [ref=f14e233]:
+                - paragraph [ref=f14e235]: $100
+                - slider [ref=f14e241]: "100"
+        - generic [ref=f14e242]:
+          - generic [ref=f14e243]:
+            - heading "Estimated daily campaign results" [level=2] [ref=f14e244]
+            - generic [ref=f14e245] [cursor=pointer]
+          - generic [ref=f14e250]:
+            - generic [ref=f14e251]:
+              - paragraph [ref=f14e252]: Estimated impressions
+              - paragraph [ref=f14e253]: ...loading
+            - generic [ref=f14e254]:
+              - paragraph [ref=f14e255]: Estimated clicks
+              - paragraph [ref=f14e256]: ...loading
+            - generic [ref=f14e257]:
+              - paragraph [ref=f14e258]: Average CTR
+              - paragraph [ref=f14e259]: ...loading
+          - generic [ref=f14e260]:
+            - paragraph [ref=f14e261]: ⚡ Results visible within 5 minutes of launch
+            - button "Launch my campaign" [ref=f14e262] [cursor=pointer]
+      - generic [ref=f14e266]:
+        - heading "Why customers choose AADS" [level=2] [ref=f14e267]
+        - generic [ref=f14e268]:
+          - generic [ref=f14e269]:
+            - generic [ref=f14e273]:
+              - heading "The situation" [level=3] [ref=f14e274]
+              - paragraph [ref=f14e275]: You need to reach crypto users fast — whether you're launching a new token, growing a blockchain or iGaming project.
+            - generic [ref=f14e279]:
+              - heading "The challenge" [level=3] [ref=f14e280]
+              - paragraph [ref=f14e281]: Web2 ad networks ban crypto and gaming ads, while Web3 ad networks require large budgets, offer limited control, and involve long moderation times.
+          - generic [ref=f14e285]:
+            - heading "The solution" [level=3] [ref=f14e286]
+            - paragraph [ref=f14e287]:
+              - text: AADS delivers targeted crypto traffic in
+              - generic [ref=f14e288]: 5 minutes,
+              - text: with full control, transparent stats, and flexible budgets starting
+              - generic [ref=f14e291]: from $100.
+        - generic [ref=f14e294]:
+          - generic [ref=f14e298]:
+            - heading "Experience since 2011" [level=3] [ref=f14e299]
+            - paragraph [ref=f14e300]: With years of experience working with global companies, we know how to make your campaigns and ad placements effective
+          - generic [ref=f14e304]:
+            - heading "Crypto & fiat payments" [level=3] [ref=f14e305]
+            - paragraph [ref=f14e306]: We accept crypto and bank cards for payments. Withdrawals are available in BTC. Use Lightning for fast and cost-effective transactions
+          - generic [ref=f14e310]:
+            - heading "Rapid moderation service" [level=3] [ref=f14e311]
+            - paragraph [ref=f14e312]: We provide a speedy moderation service to reject scams and inappropriate content
+          - generic [ref=f14e316]:
+            - heading "First-class 24/7 support" [level=3] [ref=f14e317]
+            - paragraph [ref=f14e318]: Our dedicated support team is available 24/7 and focused on providing a smooth, reliable support experience
+      - generic [ref=f14e320]:
+        - heading "A complete set of services for effective monetization" [level=2] [ref=f14e321]
+        - generic [ref=f14e322]:
+          - list [ref=f14e324]:
+            - listitem [ref=f14e325]:
+              - generic [ref=f14e328]:
+                - heading "Direct sales from banners" [level=3] [ref=f14e329]
+                - paragraph [ref=f14e330]: Your website visitors can buy ads directly through a banner. Hover over the right-angle icon to see how it works
+            - listitem [ref=f14e331]:
+              - generic [ref=f14e334]:
+                - heading "Ad moderation service" [level=3] [ref=f14e335]
+                - paragraph [ref=f14e336]: We moderate ads for free according to our ad policy or specific conditions you set
+            - listitem [ref=f14e337]:
+              - generic [ref=f14e340]:
+                - heading "Advertiser support" [level=3] [ref=f14e341]
+                - paragraph [ref=f14e342]: Our support team is available to your advertisers 24/7. When they deposit a certain amount, we provide free banners.
+          - iframe [ref=f14e344]:
+            - generic [ref=f15e2]:
+              - link [ref=f15e5] [cursor=pointer]:
+                - /url: https://a-ads.com/campaigns/new?source_id=1&source_type=ad_unit&partner=1&utm_source=AADS&utm_medium=advertisehere
+              - link [ref=f15e6] [cursor=pointer]:
+                - /url: https://click.a-ads.com/1/84256/
+      - generic [ref=f14e346]:
+        - generic [ref=f14e347]:
+          - heading "Compare platforms for сrypto & iGamling ads" [level=2] [ref=f14e348]
+          - paragraph [ref=f14e349]: Why settle for slow, expensive, or risky alternatives?
+        - generic [ref=f14e351]:
+          - generic [ref=f14e352]:
+            - generic [ref=f14e353]: Your Options
+            - generic [ref=f14e354]: Ad moderation
+            - generic [ref=f14e355]: Control
+            - generic [ref=f14e356]: Trust
+            - generic [ref=f14e357]: Cost
+          - generic [ref=f14e358]:
+            - generic [ref=f14e359]: Web2 ad network
+            - generic [ref=f14e361]: Disapproved
+            - generic [ref=f14e363]: High
+            - generic [ref=f14e365]: High
+            - generic [ref=f14e367]: Variable
+          - generic [ref=f14e369]:
+            - generic [ref=f14e370]: Web3 ad networks
+            - generic [ref=f14e372]: Slow
+            - generic [ref=f14e374]: Limited
+            - generic [ref=f14e376]: Low
+            - generic [ref=f14e378]: High
+          - generic [ref=f14e381]:
+            - img "logo" [ref=f14e383]
+            - generic [ref=f14e384]: 5 minutes
+            - generic [ref=f14e386]: Full
+            - generic [ref=f14e388]: High
+            - generic [ref=f14e390]: Flexible
+        - generic [ref=f14e393]:
+          - generic [ref=f14e394]:
+            - heading [level=5] [ref=f14e395]:
+              - text: See
+              - generic [ref=f14e396]: AADS in Action
+            - paragraph [ref=f14e399]: Discover how AADS improves performance, enhances targeting, and integrates seamlessly
+          - img "request demo" [ref=f14e401]
+          - button "Request demo" [ref=f14e403] [cursor=pointer]
+      - generic [ref=f14e404]:
+        - generic [ref=f14e405]:
+          - heading "Real results from real customers" [level=2] [ref=f14e406]
+          - generic [ref=f14e407]:
+            - generic [ref=f14e408]:
+              - generic [ref=f14e409]:
+                - img "BC.GAME" [ref=f14e410]
+                - heading "BC.GAME" [level=2] [ref=f14e411]
+              - generic [ref=f14e412]:
+                - generic [ref=f14e413]:
+                  - paragraph [ref=f14e414]: "Challenge:"
+                  - paragraph [ref=f14e415]: The goal was broad brand awareness and audience reach in the crypto and gambling niches at a low cost
+                - generic [ref=f14e417]:
+                  - img "aads" [ref=f14e419]
+                  - paragraph [ref=f14e422]: We chose a mix of CPA and CPD models to reach a large audience while keeping CPM minimal, starting from just 0.02 USD
+            - generic [ref=f14e423]:
+              - generic [ref=f14e424]:
+                - img "Claps" [ref=f14e425]
+                - heading "Claps" [level=2] [ref=f14e426]
+              - generic [ref=f14e427]:
+                - generic [ref=f14e428]:
+                  - paragraph [ref=f14e429]: "Challenge:"
+                  - paragraph [ref=f14e430]: The client's goal was to generate casino registrations and deposits, as well as to expand brand awareness
+                - generic [ref=f14e432]:
+                  - img "aads" [ref=f14e434]
+                  - paragraph [ref=f14e437]: Press releases were launched via the Marketplace, supported by a banner campaign using pre-designed creatives
+            - generic [ref=f14e438]:
+              - generic [ref=f14e439]:
+                - img "Chiliz" [ref=f14e440]
+                - heading "Chiliz" [level=2] [ref=f14e441]
+              - generic [ref=f14e442]:
+                - generic [ref=f14e443]:
+                  - paragraph [ref=f14e444]: "Challenge:"
+                  - paragraph [ref=f14e445]: The client's request was to increase brand awareness while also growing the number of real users
+                - generic [ref=f14e447]:
+                  - img "aads" [ref=f14e449]
+                  - paragraph [ref=f14e452]: Campaigns were launched on AADS as well as on our other network, Slise, balancing brand awareness with lead generation
+        - generic [ref=f14e455]:
+          - generic [ref=f14e456]:
+            - heading "Trusted by the top crypto projects" [level=3] [ref=f14e457]
+            - link "Get started" [ref=f14e458] [cursor=pointer]:
+              - /url: /campaigns/new/
+          - list [ref=f14e459]:
+            - listitem [ref=f14e460]:
+              - img "logo" [ref=f14e461]
+            - listitem [ref=f14e462]:
+              - img "logo" [ref=f14e463]
+            - listitem [ref=f14e464]:
+              - img "logo" [ref=f14e465]
+            - listitem [ref=f14e466]:
+              - img "logo" [ref=f14e467]
+            - listitem [ref=f14e468]:
+              - img "logo" [ref=f14e469]
+            - listitem [ref=f14e470]:
+              - img "logo" [ref=f14e471]
+            - listitem [ref=f14e472]:
+              - img "logo" [ref=f14e473]
+            - listitem [ref=f14e474]:
+              - img "logo" [ref=f14e475]
+            - listitem [ref=f14e476]:
+              - img "logo" [ref=f14e477]
+            - listitem [ref=f14e478]:
+              - img "logo" [ref=f14e479]
+            - listitem [ref=f14e480]:
+              - img "logo" [ref=f14e481]
+            - listitem [ref=f14e482]:
+              - img "logo" [ref=f14e483]
+      - generic [ref=f14e485]:
+        - heading "Our partners' trust is our core value" [level=2] [ref=f14e486]
+        - generic [ref=f14e487]:
+          - generic [ref=f14e488]:
+            - heading "Results look great on all platforms! Thanks for working with us on this, really going to help us with our launch!" [level=3] [ref=f14e489]
+            - generic [ref=f14e490]:
+              - generic [ref=f14e491]:
+                - img "Elshan Dzhafarov" [ref=f14e492]
+                - generic [ref=f14e493]:
+                  - paragraph [ref=f14e494]: Elshan Dzhafarov
+                  - paragraph [ref=f14e495]: CEO Of PLUSER
+              - img "Elshan Dzhafarov" [ref=f14e496]
+          - generic [ref=f14e497]:
+            - heading "We are pretty pleased with result! That was nice to work with you!" [level=3] [ref=f14e498]
+            - generic [ref=f14e499]:
+              - generic [ref=f14e501]:
+                - paragraph [ref=f14e502]: Lynex
+                - paragraph [ref=f14e503]: DeFi liquidity layer
+              - img "Lynex" [ref=f14e504]
+          - generic [ref=f14e505]:
+            - heading "Onchain targeting is a powerful way to find relevant audiences in a post-cookie era. It's more powerful than traditional web2 targeting capabilities." [level=3] [ref=f14e506]
+            - generic [ref=f14e507]:
+              - generic [ref=f14e508]:
+                - img "Quinn Campbell" [ref=f14e509]
+                - generic [ref=f14e510]:
+                  - paragraph [ref=f14e511]: Quinn Campbell
+                  - paragraph [ref=f14e512]: VP of growth at Sky Mavis
+              - img "Quinn Campbell" [ref=f14e513]
+          - generic [ref=f14e514]:
+            - heading "AADS has become a strong source of leads for us from the crypto and iGaming segments, and we are happy to continue our collaboration." [level=3] [ref=f14e515]
+            - generic [ref=f14e516]:
+              - generic [ref=f14e518]:
+                - paragraph [ref=f14e519]: LeadGet
+                - paragraph [ref=f14e520]: Professional automated outreach solutions.
+              - img "LeadGet" [ref=f14e521]
+          - generic [ref=f14e522]:
+            - heading "It was a pleasure to work with you guys. If we need ads in the future we will definitely come back to you 😊" [level=3] [ref=f14e523]
+            - generic [ref=f14e524]:
+              - generic [ref=f14e526]:
+                - paragraph [ref=f14e527]: Vestige
+                - paragraph [ref=f14e528]: Swap agregator & portfolio tracker
+              - img "Vestige" [ref=f14e529]
+          - generic [ref=f14e530]:
+            - heading "As a test campaign, the results were very encouraging!" [level=3] [ref=f14e531]
+            - generic [ref=f14e532]:
+              - generic [ref=f14e534]:
+                - paragraph [ref=f14e535]: Everclear
+                - paragraph [ref=f14e536]: Blockchain explorer
+              - img "Everclear" [ref=f14e537]
+      - generic [ref=f14e540]:
+        - heading "FAQ" [level=2] [ref=f14e541]
+        - generic [ref=f14e542]:
+          - button [ref=f14e544] [cursor=pointer]:
+            - heading "What Is a Crypto Advertising Network?" [level=3] [ref=f14e545]
+            - img "chevron" [ref=f14e546]
+          - button [ref=f14e548] [cursor=pointer]:
+            - heading "How does AADS compare to other crypto ad networks?" [level=3] [ref=f14e549]
+            - img "chevron" [ref=f14e550]
+          - button [ref=f14e552] [cursor=pointer]:
+            - heading "Can I advertise Bitcoin or other cryptocurrency projects with AADS?" [level=3] [ref=f14e553]
+            - img "chevron" [ref=f14e554]
+          - button [ref=f14e556] [cursor=pointer]:
+            - heading "How fast can I start my crypto ad campaign?" [level=3] [ref=f14e557]
+            - img "chevron" [ref=f14e558]
+          - button [ref=f14e560] [cursor=pointer]:
+            - heading "What ad formats does AADS support?" [level=3] [ref=f14e561]
+            - img "chevron" [ref=f14e562]
+          - button [ref=f14e564] [cursor=pointer]:
+            - heading "What budget do I need to start advertising crypto projects?" [level=3] [ref=f14e565]
+            - img "chevron" [ref=f14e566]
+          - button [ref=f14e568] [cursor=pointer]:
+            - heading "Is AADS an alternative advertising network to Google Ads?" [level=3] [ref=f14e569]
+            - img "chevron" [ref=f14e570]
+          - button [ref=f14e572] [cursor=pointer]:
+            - heading "Does AADS offer support for campaign setup and optimization?" [level=3] [ref=f14e573]
+            - img "chevron" [ref=f14e574]
+          - button [ref=f14e576] [cursor=pointer]:
+            - heading "Can publishers monetize their websites with AADS?" [level=3] [ref=f14e577]
+            - img "chevron" [ref=f14e578]
+        - generic [ref=f14e580]:
+          - generic [ref=f14e581]: Ask us any questions in a channel you like
+          - generic [ref=f14e583]:
+            - button "LiveChat" [ref=f14e584] [cursor=pointer]
+            - button [ref=f14e589] [cursor=pointer]:
+              - link "Telegram" [ref=f14e590]:
+                - /url: https://t.me/a_ads_support_bot
+            - button [ref=f14e594] [cursor=pointer]:
+              - link "Facebook" [ref=f14e595]:
+                - /url: https://www.facebook.com/aads.network
+            - button [ref=f14e599] [cursor=pointer]:
+              - link "Email" [ref=f14e600]:
+                - /url: mailto:support@aads.com
+      - generic [ref=f14e604]:
+        - generic [ref=f14e605]:
+          - generic [ref=f14e606] [cursor=pointer]:
+            - generic [ref=f14e607]:
+              - heading "Get more paying customers" [level=2] [ref=f14e608]
+              - list [ref=f14e610]:
+                - listitem [ref=f14e611]:
+                  - paragraph [ref=f14e614]: CPD, CPA and Revenue sharing models
+                - listitem [ref=f14e615]:
+                  - paragraph [ref=f14e618]: Global audience coverage
+                - listitem [ref=f14e619]:
+                  - paragraph [ref=f14e622]: Payments using various cryptocurrencies
+            - button "Become an advertiser" [ref=f14e623]
+          - generic [ref=f14e663] [cursor=pointer]:
+            - generic [ref=f14e664]:
+              - heading "Earn crypto on your website" [level=2] [ref=f14e665]
+              - list [ref=f14e667]:
+                - listitem [ref=f14e668]:
+                  - paragraph [ref=f14e671]: Simple HTML code embeddable in any website
+                - listitem [ref=f14e672]:
+                  - paragraph [ref=f14e675]: We don't collect your users' personal data
+                - listitem [ref=f14e676]:
+                  - paragraph [ref=f14e679]: Transparent payouts and live statistics
+            - button "Become a publisher" [ref=f14e680]
+        - link [ref=f14e744] [cursor=pointer]:
+          - /url: https://maads.com/?utm_source=aads&utm_medium=mainpage
+          - paragraph [ref=f14e751]: Trusted partner
+          - heading "Meet MAADS — the Web3 marketing arm of our ecosystem" [level=2] [ref=f14e761]
+          - generic [ref=f14e762]:
+            - heading "Real growth. Real data. Real users." [level=3] [ref=f14e763]
+            - paragraph [ref=f14e767]: Get Started
+          - img "eye flower" [ref=f14e768]
+      - generic [ref=f14e769]:
+        - heading "Learn more about AADS" [level=2] [ref=f14e770]
+        - generic [ref=f14e772]:
+          - generic [ref=f14e775]:
+            - link [ref=f14e777] [cursor=pointer]:
+              - /url: /blog/free-webinar/
+              - 'img "Free Webinar: How to Build eCommerce Products with AI — Safely and Effectively" [ref=f14e778]'
+              - generic [ref=f14e780]:
+                - paragraph [ref=f14e781]: Advertisers
+                - paragraph [ref=f14e782]: "Free Webinar: How to Build eCommerce Products with AI — Safely and Effectively"
+            - link [ref=f14e784] [cursor=pointer]:
+              - /url: /blog/top-best-ad-networks/
+              - img "Top 21 Best Ad Networks for Advertisers & Publishers in 2026" [ref=f14e785]
+              - generic [ref=f14e787]:
+                - paragraph [ref=f14e788]: News & Trends
+                - paragraph [ref=f14e789]: Top 21 Best Ad Networks for Advertisers & Publishers in 2026
+            - link [ref=f14e791] [cursor=pointer]:
+              - /url: /blog/best-software-development-companies/
+              - 'img "10 Best Software Development Companies in 2026: Ranked for Speed, Quality, and Real Results" [ref=f14e792]'
+              - generic [ref=f14e794]:
+                - paragraph [ref=f14e795]: News & Trends
+                - paragraph [ref=f14e796]: "10 Best Software Development Companies in 2026: Ranked for Speed, Quality, and Real Results"
+            - link [ref=f14e798] [cursor=pointer]:
+              - /url: /blog/ten-useful-ai-products-for-business-and-freelancing/
+              - img "10 Useful AI Products for Business and Freelancing" [ref=f14e799]
+              - generic [ref=f14e801]:
+                - paragraph [ref=f14e802]: News & Trends
+                - paragraph [ref=f14e803]: 10 Useful AI Products for Business and Freelancing
+            - link [ref=f14e805] [cursor=pointer]:
+              - /url: /blog/ten-powerful-growth-marketing-strategies-for-your-business/
+              - img "10 Best Growth Marketing Strategies for Your Business in 2026" [ref=f14e806]
+              - generic [ref=f14e808]:
+                - paragraph [ref=f14e809]: Advertisers
+                - paragraph [ref=f14e810]: 10 Best Growth Marketing Strategies for Your Business in 2026
+            - link [ref=f14e812] [cursor=pointer]:
+              - /url: /blog/best-move-to-earn-apps/
+              - img "10 Best Move-to-Earn Apps That Let You Earn Crypto by Walking in 2026" [ref=f14e813]
+              - generic [ref=f14e815]:
+                - paragraph [ref=f14e816]: News & Trends
+                - paragraph [ref=f14e817]: 10 Best Move-to-Earn Apps That Let You Earn Crypto by Walking in 2026
+            - link [ref=f14e819] [cursor=pointer]:
+              - /url: /blog/10-best-crypto-learn-and-earn-programs/
+              - img "10 Best Crypto Learn-and-Earn Programs to Try in 2026" [ref=f14e820]
+              - generic [ref=f14e822]:
+                - paragraph [ref=f14e823]: News & Trends
+                - paragraph [ref=f14e824]: 10 Best Crypto Learn-and-Earn Programs to Try in 2026
+            - link [ref=f14e826] [cursor=pointer]:
+              - /url: /blog/20-ways-to-earn-free-crypto/
+              - img "12 Best Ways to Earn Crypto in 2026" [ref=f14e827]
+              - generic [ref=f14e829]:
+                - paragraph [ref=f14e830]: News & Trends
+                - paragraph [ref=f14e831]: 12 Best Ways to Earn Crypto in 2026
+            - link [ref=f14e833] [cursor=pointer]:
+              - /url: /blog/10-best-play-to-earn-crypto-games/
+              - img "10 Best Play-to-Earn Crypto Games in 2026" [ref=f14e834]
+              - generic [ref=f14e836]:
+                - paragraph [ref=f14e837]: News & Trends
+                - paragraph [ref=f14e838]: 10 Best Play-to-Earn Crypto Games in 2026
+          - button [ref=f14e839] [cursor=pointer]:
+            - link "Read more articles" [ref=f14e840]:
+              - /url: /blog/
+    - generic [ref=f14e841]:
+      - generic [ref=f14e842]: AADS crypto ad network has been partnering with crypto and non-crypto websites since 2011, delivering effective banner ad solutions. As a trusted Bitcoin advertising network, we focus on providing high-quality crypto ads that maximize the impact of your campaigns. Whether you want to buy targeted crypto traffic or attract visitors interested in cryptocurrencies, our platform makes it easy. Join AADS today and experience the difference our service can make!
+      - generic [ref=f14e846]:
+        - generic [ref=f14e847]:
+          - generic [ref=f14e848]:
+            - generic:
+              - paragraph: For advertisers
+            - generic [ref=f14e849]:
+              - link "Banner advertising" [ref=f14e851] [cursor=pointer]:
+                - /url: /advertise/
+              - link "Ready ad solutions" [ref=f14e853] [cursor=pointer]:
+                - /url: /ad-solutions/
+              - link "Affiliate program" [ref=f14e855] [cursor=pointer]:
+                - /url: /crypto-affiliate-program/
+          - generic [ref=f14e856]:
+            - generic:
+              - paragraph: For publishers
+            - generic [ref=f14e857]:
+              - link "Banner ad traffic monetization" [ref=f14e859] [cursor=pointer]:
+                - /url: /earn/
+              - link "Payments via Lightning" [ref=f14e861] [cursor=pointer]:
+                - /url: /lightning/
+              - link "Referral program" [ref=f14e863] [cursor=pointer]:
+                - /url: /crypto-referral-program/
+          - generic [ref=f14e864]:
+            - generic:
+              - paragraph: Collaborations
+            - generic [ref=f14e865]:
+              - link "Marketing agencies" [ref=f14e867] [cursor=pointer]:
+                - /url: /advertising-agencies/
+              - link "Startups" [ref=f14e869] [cursor=pointer]:
+                - /url: /crypto-startups/
+              - link "Bug bounty program" [ref=f14e871] [cursor=pointer]:
+                - /url: /bug-bounty/
+          - generic [ref=f14e872]:
+            - generic:
+              - paragraph: Service
+            - generic [ref=f14e873]:
+              - link "Network statistics" [ref=f14e875] [cursor=pointer]:
+                - /url: /statistics/
+              - link "System status" [ref=f14e877] [cursor=pointer]:
+                - /url: https://status.aads.com/en/
+              - link "Help center" [ref=f14e879] [cursor=pointer]:
+                - /url: https://help.aads.com/en/
+          - generic [ref=f14e880]:
+            - generic:
+              - paragraph: Company
+            - generic [ref=f14e881]:
+              - link "About us" [ref=f14e883] [cursor=pointer]:
+                - /url: /about-us/
+              - link "Our team" [ref=f14e885] [cursor=pointer]:
+                - /url: /team/
+              - link "Blog" [ref=f14e887] [cursor=pointer]:
+                - /url: /blog/
+        - generic [ref=f14e888]:
+          - generic [ref=f14e889]:
+            - generic [ref=f14e890]: We accept Bank Card
+            - img "payment-icon" [ref=f14e892]
+            - generic [ref=f14e893]: "& Cryptocurrency payments"
+            - generic [ref=f14e894]:
+              - img "crypto-icon" [ref=f14e895]
+              - img "crypto-icon" [ref=f14e896]
+              - img "crypto-icon" [ref=f14e897]
+              - generic [ref=f14e898] [cursor=pointer]: +16 more
+          - generic [ref=f14e899]:
+            - img "lightning-icon" [ref=f14e900]
+            - paragraph [ref=f14e901]:
+              - text: Deposit and withdraw via
+              - link "Lightning" [ref=f14e902] [cursor=pointer]:
+                - /url: /lightning/
+        - generic [ref=f14e903]:
+          - generic [ref=f14e904]:
+            - generic [ref=f14e905]:
+              - link "twitter":
+                - /url: https://x.com/aads_network
+                - img [ref=f14e906] [cursor=pointer]
+            - generic [ref=f14e912]:
+              - link "aads_network":
+                - /url: https://t.me/aads_network
+                - img [ref=f14e913] [cursor=pointer]
+            - generic [ref=f14e916]:
+              - link "reddit":
+                - /url: https://www.reddit.com/r/aadsnetwork/
+                - img [ref=f14e917] [cursor=pointer]
+            - generic [ref=f14e920]:
+              - link "bitcointalk":
+                - /url: https://bitcointalk.org/index.php?topic=140822
+                - img [ref=f14e921] [cursor=pointer]
+            - generic [ref=f14e924]:
+              - link "instagram":
+                - /url: https://www.instagram.com/aads.network/
+                - img [ref=f14e925] [cursor=pointer]
+            - generic [ref=f14e928]:
+              - link "facebook":
+                - /url: https://www.facebook.com/aads.network/
+                - img [ref=f14e929] [cursor=pointer]
+            - generic [ref=f14e933]:
+              - link "linkedin":
+                - /url: https://www.linkedin.com/company/aads-network/
+                - img [ref=f14e934] [cursor=pointer]
+          - generic [ref=f14e938]:
+            - generic [ref=f14e939]: © AADS 2011-2026
+            - link "Terms of Service" [ref=f14e940] [cursor=pointer]:
+              - /url: /terms-of-service/
+            - link "Privacy Policy" [ref=f14e941] [cursor=pointer]:
+              - /url: /privacy_policy/
+  - alert [ref=f14e942]

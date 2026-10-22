@@ -1,0 +1,6 @@
+{
+  "_comment": "Copy to ads.json and fill in once a publisher account exists. ads.json is gitignored.",
+  "network": "monetag",
+  "head": "",
+  "slot": "<div class=\"adslot\" id=\"ad-slot-1\"></div>"
+}
