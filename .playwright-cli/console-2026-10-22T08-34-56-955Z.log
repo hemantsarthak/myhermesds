@@ -1,7 +1,0 @@
-[    1014ms] [LOG] CSP Violation Logger initialized @ https://aads.com/:37
-[    2314ms] [LOG] %cSTOP! color: #d93025; font-size: 56px; font-weight: 700; line-height: 1.2; text-shadow: 0 1px 0 #fff; @ https://aads.com/_next/static/chunks/pages/_app-e8b5ca70b92a8a86.js:0
-[    2314ms] [LOG] %cThis browser feature is intended for developers. If someone told you to copy and paste anything here, it could let them access your AADS account, funds, or personal data. Do not paste code into the console unless you wrote it yourself and understand exactly what it does. color: #111827; font-size: 16px; line-height: 1.5; @ https://aads.com/_next/static/chunks/pages/_app-e8b5ca70b92a8a86.js:0
-[    2747ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://aads.com/api/v1/current_user:0
-[    4386ms] [LOG] runPoptinNow @ https://aads.com/_next/static/chunks/pages/_app-e8b5ca70b92a8a86.js:0
-[    4389ms] [LOG] poptinInit loading @ https://aads.com/_next/static/chunks/pages/_app-e8b5ca70b92a8a86.js:0
-[    4537ms] [LOG] initiatePullPoptinsRequest() @ https://aads.com/_next/static/chunks/pages/_app-e8b5ca70b92a8a86.js:0

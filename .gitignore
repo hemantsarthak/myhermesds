@@ -21,3 +21,9 @@ data-source/IFSC.csv
 # local ad-network config (tag goes here once a publisher account exists)
 ads.json
 .tmp/
+
+# tool caches I created inside the project (user asked for folder-local installs)
+.npm-cache/
+.pw-browsers/
+.playwright-cli/
+.wrangler-config/
