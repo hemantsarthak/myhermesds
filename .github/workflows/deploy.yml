@@ -17,24 +17,36 @@ permissions:
   deployments: write
 
 jobs:
-  deploy:
+  pincode:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
-      - name: Build site
+      - name: Build
         run: python3 scripts/build_site.py
-
-      - name: Verify site
+      - name: Verify
         run: python3 scripts/verify_site.py
-
-      - name: Deploy to Cloudflare Pages
+      - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy site --project-name=pincode-india --branch=main
+
+  ifsc:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build (fetches IFSC.csv if absent)
+        run: python3 scripts/build_ifsc.py
+      - name: Deploy
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy site-ifsc --project-name=ifsc-india --branch=main

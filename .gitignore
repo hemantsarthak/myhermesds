@@ -13,3 +13,7 @@ __pycache__/
 .wrangler/
 dist/
 site/
+site-ifsc/
+
+# 35 MB upstream dataset — fetched on demand by scripts/build_ifsc.py
+data-source/IFSC.csv

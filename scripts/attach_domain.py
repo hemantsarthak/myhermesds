@@ -23,9 +23,7 @@ import urllib.request
 API = "https://api.cloudflare.com/client/v4"
 TOK = os.environ.get("CF_API_TOKEN", "")
 ACC = os.environ.get("CF_ACCOUNT_ID", "")
-PROJECT = "pincode-india"
 ZONE_NAME = "tekify.xyz"
-TARGET = "pincode-india.pages.dev"
 
 
 def call(path, method="GET", body=None):
@@ -46,9 +44,15 @@ def ok(res):
 
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument("--project", default="pincode-india")
     ap.add_argument("--domain", default="pincode.tekify.xyz")
+    ap.add_argument("--verify-path", default=None,
+                    help="secondary page to assert renders (defaults to a pincode or bank page)")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
+
+    PROJECT = args.project
+    TARGET = f"{PROJECT}.pages.dev"
 
     if not TOK or not ACC:
         print("FAIL: CF_API_TOKEN / CF_ACCOUNT_ID not set. Source hermestom/.env first.")
@@ -118,12 +122,12 @@ def main():
                 print(f"  attempt {attempt:2d}  HTTP {r.status}  {len(body)} bytes")
                 if r.status == 200 and "<h1>" in body:
                     print(f"  title: {body.split('<title>')[1].split('</title>')[0]}")
-                    # a real pincode page must also answer
-                    req2 = urllib.request.Request(f"https://{args.domain}/pincode/110001/",
+                    vp = args.verify_path or ("/pincode/110001/" if "pincode" in PROJECT else "/bank/sbin/")
+                    req2 = urllib.request.Request(f"https://{args.domain}{vp}",
                                                   headers={"User-Agent": "attach-domain-verify/1"})
                     with urllib.request.urlopen(req2, timeout=20) as r2:
-                        b2 = r2.read(3000).decode(errors="replace")
-                    print(f"  pincode page     HTTP {r2.status}  contains table: {'<table>' in b2}")
+                        b2 = r2.read(6000).decode(errors="replace")
+                    print(f"  {vp:20s} HTTP {r2.status}  has table: {'<table>' in b2}")
                     print("\nLIVE")
                     return 0
         except urllib.error.HTTPError as e:
